@@ -9,12 +9,16 @@ body {
     background-color: #fff;
   }
 
-  h1 {
+  h1{
+  
     text-align: center;
+    color: #fff;
+  
   }
 
   .calculator {
-    background-color:#fff;
+    color: #5cf316;
+    background-color:#724caf;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -36,7 +40,7 @@ body {
   }
 
   button:hover {
-    background-color: #45a049;
+    background-color: #45a07d;
   }
 
   #result {
