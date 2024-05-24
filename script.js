@@ -16,9 +16,10 @@ function calculateIMC() {
       status = "Obesidade Grau I";    
     } else if (imc >= 35 &&  imc < 40) {
       status = "Obesidade Grau II (obesidade severa)";    
-    } else  {
+    } else if (imc>=40) {
       status = "Obesidade Grau III (obesidade mórbida)";   
-    }
+    } 
+    
     
     var sugestao = "";
     if (status === "Abaixo do peso") {

@@ -1,4 +1,8 @@
-body {
+body{
+    
+    background-image: url(/imagens/backgroundimg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -11,16 +15,17 @@ body {
   
 
   h1{
-  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: #fff;
+    color: #f51414;
   
   }
 
   .calculator {
     
-    color: #5cf316;
-    background-color:#724caf;
+    color: #f51414;
+    font-weight:bold;
+    background-color:transparent;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -29,22 +34,24 @@ body {
   input[type="number"], select {
     width: 100%;
     margin-bottom: 10px;
-    padding: 8px;
+    padding: 2px;
+    height: 30px;
   }
 
   #button {
     display: inline-block;
-    width: 100%;
+    width: 20%;
     padding: 10px;
-    background-color: #774caf;
+    background-color: transparent;
     color: #fff;
+    font-weight: bold;
     border: none;
     cursor:pointer;
     align-items: center;
   }
 
   button:hover {
-    background-color: #45a07d;
+    background-color: #45a051;
   }
 
   #resultado {
